@@ -136,8 +136,9 @@ int delete_node_at_index(list_t **head, unsigned int index)
 
 /**
  * free_list - frees all nodes of a list
- * @head_ptr: address of pointer to head node
- *
+ * @head_ptr: 
+ * address of pointer to head node
+ * trying to address pointer to head node
  * Return: void
  */
 void free_list(list_t **head_ptr)

@@ -59,6 +59,7 @@ int set_alias(info_t *info, char *str)
 
 /**
  * print_alias - prints an alias string
+ * 0 for succes ,1 on error
  * @node: the alias node
  *
  * Return: Always 0 on success, 1 on error
@@ -82,8 +83,10 @@ int print_alias(list_t *node)
 
 /**
  * _myalias - mimics the alias builtin (man alias)
- * @info: Structure containing potential arguments. Used to maintain
+ * @info: Structure containing potential arguments.
+ * Used to maintain
  *          constant function prototype.
+ *
  *  Return: Always 0
  */
 

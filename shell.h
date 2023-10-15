@@ -41,6 +41,7 @@ extern char **environ;
  * struct liststr - singly linked list
  * @num: the number field
  * @str: a string
+ *
  * @next: points to the next node
  */
 typedef struct liststr
@@ -53,8 +54,10 @@ typedef struct liststr
 /**
  *struct passinfo - contains pseudo-arguements to pass into a function,
  *		allowing uniform prototype for function pointer struct
- *@arg: a string generated from getline containing arguements
- *@argv: an array of strings generated from arg
+ *@arg: a string generated 
+ from getline containing arguements
+ *@argv: an array
+ of strings generated from arg
  *@path: a string path for the current command
  *@argc: the argument count
  *@line_count: the error count

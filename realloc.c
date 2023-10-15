@@ -36,6 +36,9 @@ void ffree(char **pp)
  * @ptr: pointer to previous malloc'ated block
  * @old_size: byte size of previous block
  * @new_size: byte size of new block
+ * intresting 
+ * mmmhhh
+ *
  *
  * Return: pointer to da ol'block nameen.
  */

@@ -76,7 +76,9 @@ int _myunsetenv(info_t *info)
 
 /**
  * populate_env_list - populates env linked list
- * @info: Structure containing potential arguments. Used to maintain
+ * @info: Structure containing potential arguments.
+ * always return 0
+ * Used to maintain
  *          constant function prototype.
  * Return: Always 0
  */

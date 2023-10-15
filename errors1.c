@@ -3,7 +3,8 @@
 /**
  * _erratoi - converts a string to an integer
  * @s: the string to be converted
- * Return: 0 if no numbers in string, converted number otherwise
+ * Return: 0 if no numbers in string, 
+ * converted number otherwise
  *       -1 on error
  */
 int _erratoi(char *s)
@@ -122,8 +123,11 @@ char *convert_number(long int num, int base, int flags)
 }
 
 /**
- * remove_comments - function replaces first instance of '#' with '\0'
- * @buf: address of the string to modify
+ * remove_comments -
+ *replace first instance
+ * function replaces first instance of '#' with '\0'
+ * @buf: address of the
+ *  string to modify
  *
  * Return: Always 0;
  */
